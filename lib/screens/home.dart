@@ -305,7 +305,14 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                                         SizedBox(height: 12),
                                         Text(
                                           errortext,
-                                          style: TextStyle(color: Colors.red),
+                                          style: TextStyle(
+                                            color: const Color.fromARGB(
+                                              255,
+                                              255,
+                                              255,
+                                              255,
+                                            ),
+                                          ),
                                         ),
                                         Row(
                                           mainAxisAlignment:
